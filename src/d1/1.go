@@ -1,4 +1,4 @@
-package main
+package day1
 
 import (
 	"fmt"
@@ -8,7 +8,7 @@ import (
 	"strings"
 )
 
-func main() {
+func Run() {
 	fmt.Println("--- Day 1: Historian Hysteria ---")
 	fmt.Printf("C1: %d\n", c1("../data/1.txt"))
 	fmt.Printf("C2: %d\n", c2("../data/1.txt"))
