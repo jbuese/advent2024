@@ -4,6 +4,7 @@ import (
 	day1 "advent2024/src/d1"
 	day2 "advent2024/src/d2"
 	day3 "advent2024/src/d3"
+	day4 "advent2024/src/d4"
 	"fmt"
 	"os"
 	"strconv"
@@ -28,6 +29,8 @@ func main() {
 		day2.Run()
 	case 3:
 		day3.Run()
+	case 4:
+		day4.Run()
 	default:
 		fmt.Printf("Day %d not implemented yet\n", day)
 	}
