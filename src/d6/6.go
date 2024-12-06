@@ -1,4 +1,4 @@
-package day1
+package day6
 
 import (
 	"fmt"
@@ -7,7 +7,7 @@ import (
 )
 
 func Run() {
-	fmt.Println("--- Day 4: Ceres Search ---")
+	fmt.Println("--- Day 6: Guard Gallivant ---")
 	fmt.Printf("C1: %d\n", c1("../data/6.txt"))
 	fmt.Printf("C2: %d\n", c2("../data/6.txt"))
 }
