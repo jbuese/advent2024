@@ -4,6 +4,7 @@ import (
 	day1 "advent2024/src/d1"
 	day10 "advent2024/src/d10"
 	day11 "advent2024/src/d11"
+	day12 "advent2024/src/d12"
 	day2 "advent2024/src/d2"
 	day3 "advent2024/src/d3"
 	day4 "advent2024/src/d4"
@@ -49,6 +50,8 @@ func main() {
 		day10.Run()
 	case 11:
 		day11.Run()
+	case 12:
+		day12.Run()
 	default:
 		fmt.Printf("Day %d not implemented yet\n", day)
 	}
